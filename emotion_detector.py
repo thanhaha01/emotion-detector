@@ -20,4 +20,4 @@ def emotion_detector(text_to_analyze):
         return {"emotion": dominant, "emotion_scores": emotions}
     else:
         return {"error": f"API failed with status {response.status_code}"}
-Add emotion detection logic
+
